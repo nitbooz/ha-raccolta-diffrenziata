@@ -1,0 +1,6 @@
+{
+  "name": "Raccolta Differenziata per HA",
+  "content_in_root": false,
+  "render_readme": true,
+  "homeassistant": "2023.8.0"
+}

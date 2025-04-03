@@ -1,0 +1,11 @@
+{
+  "domain": "raccolta_differenziata",
+  "name": "Raccolta Differenziata per HA",
+  "documentation": "https://github.com/nitbooz/ha-raccolta-differenziata",
+  "dependencies": [],
+  "codeowners": ["@nitbooz"],
+  "requirements": [],
+  "iot_class": "calculated",
+  "version": "0.1.0",
+  "config_flow": true
+}

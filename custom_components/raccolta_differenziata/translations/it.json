@@ -1,0 +1,96 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Raccolta Differenziata",
+        "description": "Configura l'integrazione per la raccolta differenziata"
+      },
+      "menu": {
+        "title": "Menu di configurazione",
+        "description": "Scegli cosa configurare",
+        "data": {
+          "menu": "Opzione"
+        }
+      },
+      "conferimento": {
+        "title": "Aggiungi conferimento",
+        "description": "Configura un tipo di conferimento per la raccolta differenziata",
+        "data": {
+          "tipo": "Tipo di rifiuto",
+          "giorno": "Giorno di raccolta",
+          "frequenza": "Frequenza",
+          "colore": "Colore",
+          "icona": "Icona"
+        }
+      },
+      "add_another": {
+        "title": "Aggiungi altro conferimento",
+        "description": "Vuoi aggiungere un altro tipo di conferimento?",
+        "data": {
+          "add_another": "Aggiungi un altro conferimento"
+        }
+      },
+      "notifiche": {
+        "title": "Configurazione notifiche",
+        "description": "Configura le notifiche per i promemoria",
+        "data": {
+          "attive": "Abilita notifiche",
+          "orario": "Orario notifica",
+          "anticipo": "Giorni di anticipo"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "L'integrazione è già configurata"
+    },
+    "error": {
+      "invalid_day": "Giorno non valido",
+      "invalid_frequency": "Frequenza non valida",
+      "invalid_time": "Orario non valido"
+    },
+    "create_entry": {
+      "default": "Configurazione completata con successo"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opzioni Raccolta Differenziata",
+        "description": "Modifica la configurazione della raccolta differenziata"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "next": {
+        "name": "Prossimo conferimento"
+      },
+      "next_plus_one": {
+        "name": "Secondo conferimento"
+      },
+      "next_plus_two": {
+        "name": "Terzo conferimento"
+      }
+    }
+  },
+  "selector": {
+    "frequency": {
+      "options": {
+        "settimanale": "Settimanale",
+        "bisettimanale": "Bisettimanale",
+        "mensile": "Mensile"
+      }
+    },
+    "day": {
+      "options": {
+        "lunedì": "Lunedì",
+        "martedì": "Martedì",
+        "mercoledì": "Mercoledì",
+        "giovedì": "Giovedì",
+        "venerdì": "Venerdì",
+        "sabato": "Sabato",
+        "domenica": "Domenica"
+      }
+    }
+  }
+}

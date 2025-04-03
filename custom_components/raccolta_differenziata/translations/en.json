@@ -1,0 +1,96 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Waste Collection",
+        "description": "Configure the waste collection integration"
+      },
+      "menu": {
+        "title": "Configuration menu",
+        "description": "Choose what to configure",
+        "data": {
+          "menu": "Option"
+        }
+      },
+      "conferimento": {
+        "title": "Add waste collection",
+        "description": "Configure a type of waste collection",
+        "data": {
+          "tipo": "Waste type",
+          "giorno": "Collection day",
+          "frequenza": "Frequency",
+          "colore": "Color",
+          "icona": "Icon"
+        }
+      },
+      "add_another": {
+        "title": "Add another collection",
+        "description": "Do you want to add another type of collection?",
+        "data": {
+          "add_another": "Add another collection"
+        }
+      },
+      "notifiche": {
+        "title": "Notification settings",
+        "description": "Configure reminders notifications",
+        "data": {
+          "attive": "Enable notifications",
+          "orario": "Notification time",
+          "anticipo": "Days in advance"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Integration is already configured"
+    },
+    "error": {
+      "invalid_day": "Invalid day",
+      "invalid_frequency": "Invalid frequency",
+      "invalid_time": "Invalid time"
+    },
+    "create_entry": {
+      "default": "Configuration completed successfully"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Waste Collection Options",
+        "description": "Edit waste collection configuration"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "next": {
+        "name": "Next collection"
+      },
+      "next_plus_one": {
+        "name": "Second collection"
+      },
+      "next_plus_two": {
+        "name": "Third collection"
+      }
+    }
+  },
+  "selector": {
+    "frequency": {
+      "options": {
+        "settimanale": "Weekly",
+        "bisettimanale": "Biweekly",
+        "mensile": "Monthly"
+      }
+    },
+    "day": {
+      "options": {
+        "lunedì": "Monday",
+        "martedì": "Tuesday",
+        "mercoledì": "Wednesday",
+        "giovedì": "Thursday",
+        "venerdì": "Friday",
+        "sabato": "Saturday",
+        "domenica": "Sunday"
+      }
+    }
+  }
+}

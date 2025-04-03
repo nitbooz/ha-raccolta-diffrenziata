@@ -1,0 +1,117 @@
+# Servizi per l'integrazione Raccolta Differenziata
+
+update_collection:
+  name: Aggiorna conferimento
+  description: Aggiorna le informazioni di un conferimento esistente.
+  fields:
+    tipo:
+      name: Tipo
+      description: Il tipo di rifiuto da aggiornare.
+      required: true
+      example: "Plastica"
+      selector:
+        text:
+    giorno:
+      name: Giorno
+      description: Il nuovo giorno di raccolta.
+      required: false
+      example: "lunedì"
+      selector:
+        select:
+          options:
+            - "lunedì"
+            - "martedì"
+            - "mercoledì"
+            - "giovedì"
+            - "venerdì"
+            - "sabato"
+            - "domenica"
+    frequenza:
+      name: Frequenza
+      description: La nuova frequenza di raccolta.
+      required: false
+      example: "settimanale"
+      selector:
+        select:
+          options:
+            - "settimanale"
+            - "bisettimanale"
+            - "mensile"
+    colore:
+      name: Colore
+      description: Il nuovo colore per questo tipo di rifiuto.
+      required: false
+      example: "#4CAF50"
+      selector:
+        color_rgb:
+    icona:
+      name: Icona
+      description: La nuova icona per questo tipo di rifiuto.
+      required: false
+      example: "mdi:recycle"
+      selector:
+        icon:
+
+add_collection:
+  name: Aggiungi conferimento
+  description: Aggiungi un nuovo tipo di conferimento.
+  fields:
+    tipo:
+      name: Tipo
+      description: Il tipo di rifiuto da aggiungere.
+      required: true
+      example: "Vetro"
+      selector:
+        text:
+    giorno:
+      name: Giorno
+      description: Il giorno di raccolta.
+      required: true
+      example: "lunedì"
+      selector:
+        select:
+          options:
+            - "lunedì"
+            - "martedì"
+            - "mercoledì"
+            - "giovedì"
+            - "venerdì"
+            - "sabato"
+            - "domenica"
+    frequenza:
+      name: Frequenza
+      description: La frequenza di raccolta.
+      required: true
+      example: "settimanale"
+      selector:
+        select:
+          options:
+            - "settimanale"
+            - "bisettimanale"
+            - "mensile"
+    colore:
+      name: Colore
+      description: Il colore per questo tipo di rifiuto.
+      required: false
+      example: "#4CAF50"
+      selector:
+        color_rgb:
+    icona:
+      name: Icona
+      description: L'icona per questo tipo di rifiuto.
+      required: false
+      example: "mdi:recycle"
+      selector:
+        icon:
+
+remove_collection:
+  name: Rimuovi conferimento
+  description: Rimuovi un tipo di conferimento esistente.
+  fields:
+    tipo:
+      name: Tipo
+      description: Il tipo di rifiuto da rimuovere.
+      required: true
+      example: "Plastica"
+      selector:
+        text:
